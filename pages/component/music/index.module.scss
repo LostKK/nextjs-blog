@@ -1,0 +1,13 @@
+.music_wrap {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #ccc;
+    height: 100%;
+    padding: 20px 30px;
+    .title {
+        color:#000000;
+        font-size: 50px;
+        line-height: 50px;
+    }
+}

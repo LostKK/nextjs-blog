@@ -1,0 +1,21 @@
+.list_wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: skyblue;
+    height: 100%;
+    padding: 20px 30px;
+    .list_header{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: space-between;
+        .header_single {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-width: 100px;
+        }
+    }
+}
