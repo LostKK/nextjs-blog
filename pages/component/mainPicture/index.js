@@ -3,7 +3,6 @@ import classnames from 'classnames'
 import Zoom from '@mui/material/Zoom';
 import React, { useState, useEffect } from 'react';
 
-
 export default function Music() {
     const [checked, setChecked] = useState(false);
 
@@ -14,7 +13,7 @@ export default function Music() {
     return (
         <Zoom in={checked} timeout={1500}>
             <div className={classnames(styles.main_wrap)}>
-                main
+                <img src={"../../../assets/image/flower.jfif"} />
             </div>
         </Zoom>
     )

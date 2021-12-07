@@ -3,9 +3,9 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    background-color: skyblue;
     height: 100%;
     padding: 20px 30px;
+    background-color: #D56A3E;
     .list_header{
         display: flex;
         flex-direction: row;
@@ -29,6 +29,11 @@
           line-height: 50px;
           height: 50px;
           font-family: PingFangSC-Regular, sans-serif;
+        }
+        .detail_list {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
     }
 }

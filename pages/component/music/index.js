@@ -14,11 +14,13 @@ export default function Music() {
         <Slide direction="right" in={checked} mountOnEnter unmountOnExit timeout={1500}>
             <div className={classnames(styles.music_wrap)}>
                 <div className={classnames(styles.title)}>
-                    I Miss <br /> My Bar
+                    I Meet <br /> My Rain
                 </div>
-                <div>
-                    <iframe frameBorder={"no"} border={"0"} marginWidth={"0"} marginHeight="0" width={330} height={86} src={"//music.163.com/outchain/player?type=2&id=1474959445&auto=1&height=66"}>
-                    </iframe>
+                <div className={classnames(styles.detail)}>
+                    <p>妾弄青梅凭短墙</p>
+                    <p>君骑白马傍垂杨</p>
+                    <p>墙头马上遥相顾</p>
+                    <p>一见知君即断肠</p>
                 </div>
             </div>
         </Slide>

@@ -1,13 +1,25 @@
 .music_wrap {
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: flex-start;
-    background-color: #ccc;
+    background-color: #D56A3E;
     height: 100%;
-    padding: 20px 30px;
+    padding: 20px 10px;
     .title {
         color:#000000;
-        font-size: 50px;
-        line-height: 50px;
+        font-size: 56px;
+        font-weight: 700;
+        font-family: PingFangSC-Regular, sans-serif;
+        line-height: 60px;
+        padding: 10px;
+        width: 100%;
+        text-align: center;
+    }
+    .detail {
+        font-size: 24px;
+        font-family: PingFangSC-Regular, sans-serif;
+        width: 100%;
+        text-align: center;
     }
 }

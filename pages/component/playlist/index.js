@@ -50,7 +50,7 @@ export default function Playlist() {
                         return (
                             <div key={index}>
                                 <div className={classnames(styles.detail_title)}>{i.name}</div>
-                                <div style={{ display: 'flex' }}>
+                                <div className={classnames(styles.detail_list)}>
                                     {
                                         (!list[index].active && <PlayArrowIcon
                                             onClick={() => {
@@ -73,7 +73,7 @@ export default function Playlist() {
                                         min={0}
                                         step={0.1}
                                         onChange={e => audioArray[index].volume = e.target.value}
-                                    style={{ width: '80%' }}
+                                        style={{ width: '85%', color: '#000' }}
                                     />
                                 </div>
                                 <audio src={i.music} loop ref={node => audioArray[index] = node}>
