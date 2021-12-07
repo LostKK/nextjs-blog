@@ -1,6 +1,6 @@
 import styles from './index.module.scss'
 import classnames from 'classnames'
-import Slide from '@mui/material/Slide';
+import Grow from '@mui/material/Grow';
 import React, { useState, useEffect } from 'react';
 
 export default function Music() {
@@ -11,7 +11,7 @@ export default function Music() {
     });
 
     return (
-        <Slide direction="right" in={checked} mountOnEnter unmountOnExit timeout={1500}>
+        <Grow in={checked} timeout={1500}>
             <div className={classnames(styles.music_wrap)}>
                 <div className={classnames(styles.title)}>
                     I Meet <br /> My Rain
@@ -23,7 +23,7 @@ export default function Music() {
                     <p>一见知君即断肠</p>
                 </div>
             </div>
-        </Slide>
+        </Grow>
 
     )
 }

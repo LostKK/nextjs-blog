@@ -1,6 +1,6 @@
 import styles from './index.module.scss'
 import classnames from 'classnames'
-import Slide from '@mui/material/Slide';
+import Grow from '@mui/material/Grow';
 import Slider from '@mui/material/Slider';
 import React, { useState, useEffect } from 'react';
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
@@ -39,7 +39,7 @@ export default function Playlist() {
     }
 
     return (
-        <Slide direction="left" in={checked} mountOnEnter unmountOnExit timeout={1500}>
+        <Grow in={checked} timeout={1500}>
             <div className={classnames(styles.list_wrap)}>
                 <div className={classnames(styles.list_header)}>
                     <div className={classnames(styles.header_single)}>share</div>
@@ -83,7 +83,7 @@ export default function Playlist() {
                     })}
                 </div>
             </div>
-        </Slide>
+        </Grow>
 
     )
 }
