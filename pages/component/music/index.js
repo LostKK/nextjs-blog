@@ -14,7 +14,7 @@ export default function Music() {
         <Grow in={checked} timeout={1500}>
             <div className={classnames(styles.music_wrap)}>
                 <div className={classnames(styles.title)}>
-                    I Meet <br /> My Rain
+                    我 遇见 <br /> 一场 雨
                 </div>
                 <div className={classnames(styles.detail)}>
                     <p>妾弄青梅凭短墙</p>

@@ -43,3 +43,14 @@
     }
 }
 
+@media screen and (min-width :812px) {
+   .detail_title {
+       
+   }
+}
+
+@media screen and (max-width :812px) {
+    .detail_title {
+       text-align: center;
+    }
+}
