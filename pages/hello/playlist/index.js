@@ -7,6 +7,7 @@ import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import PauseIcon from '@mui/icons-material/Pause';
 import _ from 'lodash'
 import About from '../about/index'
+import Link from 'next/link'
 
 export default function Playlist() {
     var audioArray = []
@@ -50,7 +51,11 @@ export default function Playlist() {
                 <div className={classnames(styles.list_wrap)}>
                     <div className={classnames(styles.list_header)}>
                         <div className={classnames(styles.header_single)} onClick={updateChildState}>关于</div>
-                        <div className={classnames(styles.header_single)}>更多</div>
+                        <div className={classnames(styles.header_single)}>
+                            <Link href={`/more`}>
+                                <a>更多</a>
+                            </Link>
+                        </div>
                     </div>
                     <div className={classnames(styles.list_detail)}>
                         {list.map((i, index) => {
