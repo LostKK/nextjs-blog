@@ -1,0 +1,18 @@
+.more_wrap {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #8cc269;
+    display: flex;
+}
+
+@media screen and (min-width :812px) {
+    .layout {
+        padding: 50px;
+    }
+}
+
+@media screen and (max-width :812px) {
+    .layout {
+        padding: 30px 20px;
+    }
+}

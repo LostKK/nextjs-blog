@@ -16,17 +16,17 @@ export default function Playlist() {
     var [list, setList] = useState([
         {
             name: '雨',
-            music: '../../../assets/music/rain.mp3',
+            music: './assets/music/rain.mp3',
             active: false
         },
         {
             name: '雷',
-            music: '../../../assets/music/thunder.mp3',
+            music: './assets/music/thunder.mp3',
             active: false
         },
         {
             name: '更大的雷',
-            music: '../../../assets/music/loudThunder.mp3',
+            music: './assets/music/loudThunder.mp3',
             active: false
         },
     ])

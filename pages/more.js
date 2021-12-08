@@ -1,6 +1,7 @@
-export default function Home() {
+import More from './more/more/index'
+
+export default function MorePage() {
     return (
-        <span>123</span>
+        <More />
     )
-  }
-  
+}
