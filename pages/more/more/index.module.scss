@@ -3,6 +3,10 @@
     min-height: 100vh;
     background-color: #8cc269;
     display: flex;
+    .layout {
+        display: flex;
+        flex-direction: row;
+    }
 }
 
 @media screen and (min-width :812px) {

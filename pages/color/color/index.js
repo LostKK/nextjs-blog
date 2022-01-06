@@ -1,9 +1,7 @@
-
-import styles from './index.module.scss'
-import classnames from 'classnames'
 import Zoom from '@mui/material/Zoom';
 import React, { useState, useEffect } from 'react';
 import data from '../data'
+import Picker from '../picker/index'
 
 export default function Color() {
     const [checked, setChecked] = useState(false);
